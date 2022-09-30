@@ -1,0 +1,53 @@
+baseURL: https://raditian-hugo.radity.com/
+languageCode: en-us
+theme: raditian-free-hugo-theme
+params:
+  footer:
+    copyright: © Raditian. All rights reserved.
+    # radity_logo:
+    #   _2x: img/general/design-and-code-radity@2x.png
+    #   alt: Design & Code - Radity
+    #   x: img/general/design-and-code-radity.png
+  googleTagManagerID: GTM-000000
+  # logo:
+  #   text1: Nick
+  #   text2: Pangakis
+  plugins:
+    css:
+      - URL: css/main.css
+      - URL: css/rad-icons.css
+      - URL: css/custom.css
+    js:
+      - URL: js/rad-animations.js
+      - URL: js/sticky-header.js
+      - URL: js/library/fontfaceobserver.js
+  sections:
+    - showcase
+    - about
+    - experience
+    - education
+    - client-and-work
+    #- testimonial
+    # - contact
+    # - newsletter
+menu:
+  footer:
+    - URL: '#about'
+      name: Background
+      weight: 2
+    - URL: '#portfolio'
+      name: Portfolio
+      weight: 3
+    # - URL: '#contact'
+    #   name: Contact
+    #   weight: 4
+  header:
+    - URL: '#about'
+      name: Background
+      weight: 2
+    - URL: '#portfolio'
+      name: Portfolio
+      weight: 3
+    # - URL: '#contact'
+    #   name: Contact
+    #   weight: 4

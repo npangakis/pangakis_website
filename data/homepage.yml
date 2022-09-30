@@ -1,0 +1,199 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I’m Nick!"
+  subtitle: "Data Scientist"
+  description: "My name is Nick Pangakis and I'm a data scientist and machine learning engineer who is currently a PhD Candidate at the University of Pennsylvania. In my research, I utilize machine learning, econometrics, and A/B testing to study the media and human behavior. I am especially interested in natural language processing."
+  image:
+    x: "img/showcase/image1.png"
+    _2x: "img/showcase/image1@2x.png"
+  imageMobile:
+    x: "img/showcase/image1.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://mail.google.com/mail/?view=cm&source=mailto&to=pangakis95@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/nick-pangakis-18734ab4"
+
+    - icon: "github"
+      URL: "https://github.com/npangakis"
+      
+    - icon: "twitter"
+      URL: "https://twitter.com/nick_pangakis?lang=en"
+
+
+# about
+about:
+  enable: true
+  title: "Background"
+  content: '<p class="lead">
+    This past summer, I was a Machine Learning Intern at DataCamp. Using several transformer-based NLP models, I created an internal linking tool that includes over 80,000 internal connections between DataCamp web pages, which saved at least 1,300 hours of labor if the task had been done manually. This tool has the potential to increase web traffic and, most importantly, enhance the DataCamp user experience.
+    </p>
+    <p class="lead">
+    Outside of data science and my research, I love running, swimming, and biking. In the past year, I’ve completed 2 triathlons (1 Sprint and 1 Olympic)
+    and I hope to compete in many more in the years to come!
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "More About Me"
+    URL: "https://www.linkedin.com/in/nick-pangakis-18734ab4"
+  image:
+    x: "img/who-am-i/image2.png"
+    _2x: "img/who-am-i/image2@2x.png"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "3+ years of experience as a quantitative researcher and data scientist."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/nick-pangakis-18734ab4"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Machine Learning Intern"
+      company: "DataCamp"
+      duration: "June 2022 - Sep 2022"
+      
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Pennslyvania"
+      year: "2020-2024 (Expected)"
+      degree: "PhD in Political Science"
+
+    - university: "The Wharton School, University of Pennslyvania"
+      year: "2020-2023 (Expected)"
+      degree: "Master's in Data Science and Statistics"
+      
+    - university: "Columbia University"
+      year: "2019-2020"
+      degree: "Master's in Political Science"
+      
+    - university: "Boston College"
+      year: "2013-2017"
+      degree: "Bachelor's in Political Science"
+
+# Client & Work
+client_and_work:
+  title: "Data Science Portfolio"
+  enable: true
+
+  clients:
+    # - logo:
+    #     x: "img/clients/asgardia.png"
+    #     _2x: "img/clients/asgardia@2x.png"
+    #   alt: "Asgardia"
+
+  works:
+    - title: "“Classifying Local News Television Transcripts Using RoBERTa” (with Sam Wolken and Chloe Ahn)"
+      description: "We scraped a novel dataset of approximately 18,000 closed captioning transcripts from local television news programs across three cities from 2014 to 2018 and created a series of RoBERTa classifiers to identify news topics in these transcripts over time. Across the seven selected topics, the RoBERTa models achieved an average precision score of 0.85, an average recall score of 0.876, and an average F1 score of 0.859."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Explore our findings through an interactive dashboard"
+        URL: "https://njpang.shinyapps.io/roberta_shiny_app/"
+
+      image:
+        x: "img/works/transcripts.jpg"
+        _2x: "img/works/transcripts@2x.jpg"
+      is_even: true
+
+    - title: "“Who Donates? Using Machine Learning to Predict Federal Donation Behavior”"
+      description: "Using governmental administrative data and socio-demographic data, I show that LASSO logistic regression and random forest are very effective at predicting individual-level donation behavior. LASSO logistic regression correctly classifies 82.7% of test cases (61.9% of positive cases) and random forest correctly classifies 92.8% of test cases (99.9% of positive classes). Although both of these accuracy scores are notably higher than the 74.1 percent no-information rate, random forest proves to be the suprior model by far."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Link to Full Project"
+        URL: "https://github.com/npangakis"
+      image:
+        x: "img/works/rf_donations.jpg"
+        _2x: "img/works/rf_donations@2x.jpg"
+      is_even: false
+
+    - title: " “Protests Increase Donations to Federal Political Campaigns” (with Daniel Gillion) "
+      description: "Using multiple identification strategies, we show that political protests generate a significant amount of money for federal political campaigns across the United States over time. Utilizing a staggered difference-in-difference design with county, week, and year fixed-effects, we find that each additional protest causes an increase of about 8 individual donations (or roughly $4,000) to federal political campaigns in a county. Using this estimate, we determine that protests have generated over $120,000,000 in donations to federal political campaigns from 2017 to 2021."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Link to Full Project"
+        URL: "https://github.com/npangakis"
+      image:
+        x: "img/works/rdd.jpg"
+        _2x: "img/works/rdd@2x.jpg"
+      is_even: true
+      
+    - title: " “Fleeing For Their Lives: Reconsidering How Americans View Immigrants’ Reasons for Migrating”"
+      description: "This project implements a series of survey experiments investigating how Americans view border crossers’ reasons for migrating and whether Americans are more supportive of migrants escaping violence or migrants escaping poverty. Contrary to prior research, my findings indicate that economic reasons for migration are only viewed less favorably by natives if the risks in the migrant’s home country are not equivalent to the risks associated with violence or persecution in the home country of origin."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Link to Full Project"
+        URL: "https://github.com/npangakis"
+      image:
+        x: "img/works/immigration.jpg"
+        _2x: "img/works/immigration@2x.jpg"
+      is_even: FALSE
+
+# # testimonial
+# testimonial:
+#   enable: true
+#   title: "Testimonials"
+#   items:
+#     - name: "Daniel Jordan"
+#       position: "Phonet, CEO"
+#       content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+#       image:
+#         x: "img/testimonials/daniel-jordan.jpg"
+#         _2x: "img/testimonials/daniel-jordan@2x.jpg"
+# 
+#     - name: "Jonathan Peters"
+#       position: "Textic, CEO"
+#       content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+#       image:
+#         x: "img/testimonials/jonathan-peters.jpg"
+#         _2x: "img/testimonials/jonathan-peters@2x.jpg"
+# 
+#     - name: "Antonio Willis"
+#       position: "Cyberse, CEO"
+#       content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+#       image:
+#         x: "img/testimonials/antonio-willis.jpg"
+#         _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# # contact
+# contact:
+#   enable: true
+#   title: "Contact"
+#   form:
+#     action: "#"
+#     full_name: "Full Name"
+#     email: "Email Address"
+#     message: "Type Your Message Here"
+#   phone:
+#     title: "Phone Number"
+#     number: "+41 (44) 505 10 99"
+#   email:
+#     title: "Email"
+#     email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+#   address:
+#     title: "Address"
+#     address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+#   button:
+#     icon: "icon-mail-fill"
+#     btnText: "Send Message"
+# 
+# # newsletter
+# newsletter:
+#   enable: true
+#   title: "Newsletter subscription"
+#   success_message: "Successfully subscribed"
+#   error_message: "Error while subscribing."
+#   note: "We'll never share your email with anyone else."

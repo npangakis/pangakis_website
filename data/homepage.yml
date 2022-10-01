@@ -29,18 +29,14 @@ showcase:
 # about
 about:
   enable: true
-  title: "Background"
+  title: "About Me"
   content: '<p class="lead">
-    This past summer, I was a Machine Learning Intern at DataCamp. Using several transformer-based NLP models, I created an internal linking tool that includes over 80,000 internal connections between DataCamp web pages, which saved at least 1,300 hours of labor if the task had been done manually. This tool has the potential to increase web traffic and, most importantly, enhance the DataCamp user experience.
+    I am interested in the ways that artificial intelligence can and will change the world. My dissertation project, for example, is titled, "Transforming Hearts and Minds: Using Artificial Intelligence to Reduce Anti-Immigrant Attitudes." The project features a series of experiments where research subjects engage in various types of conversations with refugees and asylum seekers who, unbeknownst to the research participants, are transformer-based chat bots. The project aims to better understand how different types of meaningful contact with humanitarian migrants can reduce exclusionary attitudes toward immigration.
     </p>
     <p class="lead">
     Outside of data science and my research, I love running, swimming, and biking. In the past year, I’ve completed 2 triathlons (1 Sprint and 1 Olympic)
     and I hope to compete in many more in the years to come!
     </p>'
-  button:
-    icon: "icon-smile-fill"
-    btnText: "More About Me"
-    URL: "https://www.linkedin.com/in/nick-pangakis-18734ab4"
   image:
     x: "img/who-am-i/image2.png"
     _2x: "img/who-am-i/image2@2x.png"
@@ -63,6 +59,7 @@ experience:
     - title: "Machine Learning Intern"
       company: "DataCamp"
       duration: "June 2022 - Sep 2022"
+      description: "Using several transformer-based NLP models, I created an internal linking tool that includes over 80,000 internal connections between DataCamp web pages, which saved at least 1,300 hours of labor if the task had been done manually. This tool has the potential to increase web traffic and, most importantly, enhance the DataCamp user experience."
       
 # education
 education:

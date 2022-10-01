@@ -33,7 +33,7 @@ params:
 menu:
   footer:
     - URL: '#about'
-      name: Background
+      name: About Me
       weight: 2
     - URL: '#portfolio'
       name: Portfolio
@@ -43,7 +43,7 @@ menu:
     #   weight: 4
   header:
     - URL: '#about'
-      name: Background
+      name: About Me
       weight: 2
     - URL: '#portfolio'
       name: Portfolio

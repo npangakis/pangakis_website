@@ -1,4 +1,4 @@
-baseURL: https://raditian-hugo.radity.com/
+baseURL: https://github.com/npangakis/pangakis_website
 languageCode: en-us
 theme: raditian-free-hugo-theme
 params:

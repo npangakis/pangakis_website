@@ -53,7 +53,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "https://drive.google.com/file/d/1Tyn3Ad7ri5qSvivwY19yoqhHh-Ab2xhI/view?usp=sharing"
 
   items:
     - title: "Machine Learning Intern"

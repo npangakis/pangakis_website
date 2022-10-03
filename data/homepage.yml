@@ -111,7 +111,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Link to Full Project"
-        URL: "https://github.com/npangakis"
+        URL: "https://github.com/npangakis/random_forest_donation_prediction"
       image:
         x: "/img/works/rf_donations.jpg"
         _2x: "/img/works/rf_donations@2x.jpg"

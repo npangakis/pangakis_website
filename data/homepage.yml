@@ -5,8 +5,8 @@ showcase:
   subtitle: "Data Scientist"
   description: "My name is Nick Pangakis and I'm a data scientist and machine learning engineer who is currently a PhD Candidate at the University of Pennsylvania. In my research, I utilize machine learning, econometrics, and A/B testing to study the media and human behavior. I am especially interested in natural language processing."
   image:
-    x: "img/showcase/image1.jpg"
-    _2x: "img/showcase/image1@2x.jpg"
+    x: "img/showcase/image1.png"
+    _2x: "img/showcase/image1@2x.png"
   imageMobile:
     x: "img/showcase/image1.jpg"
 

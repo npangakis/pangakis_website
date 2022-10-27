@@ -118,11 +118,11 @@ client_and_work:
       is_even: false
 
     - title: " “Protests Increase Donations to Federal Political Campaigns” (with Daniel Gillion) "
-      description: "Using multiple identification strategies, we show that political protests generate a significant amount of money for federal political campaigns across the United States over time. Utilizing a staggered difference-in-difference design with county, week, and year fixed-effects, we find that each additional protest causes an increase of about 8 individual donations (or roughly $4,000) to federal political campaigns in a county. Using this estimate, we determine that protests have generated over $120,000,000 in donations to federal political campaigns from 2017 to 2021."
+      description: "Using multiple identification strategies, we show that political protests generate a significant amount of money for federal political campaigns across the United States over time. Utilizing a staggered difference-in-difference design with county, week, and year fixed-effects, we find that each additional protest causes an increase of about 97 individual donations (or roughly $18,000) to federal political campaigns in a county. Using this estimate, we determine that protests have generated over $550,000,000 in donations to federal political campaigns from 2017 to 2021."
       button:
         icon: "icon-arrow-right"
         btnText: "Link to Full Project"
-        URL: "https://github.com/npangakis"
+        URL: "https://github.com/npangakis/protests_money"
       image:
         x: "/img/works/rdd.jpg"
         _2x: "/img/works/rdd@2x.jpg"
@@ -133,7 +133,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Link to Full Project"
-        URL: "https://github.com/npangakis"
+        URL: "https://github.com/npangakis/experiment_immigration"
       image:
         x: "/img/works/immigration.jpg"
         _2x: "/img/works/immigration@2x.jpg"

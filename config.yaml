@@ -34,20 +34,20 @@ menu:
   footer:
     - URL: '#portfolio'
       name: Portfolio
-      weight: 3
+      weight: 2
     - URL: '#about'
       name: About Me
-      weight: 2
+      weight: 3
     # - URL: '#contact'
     #   name: Contact
     #   weight: 4
   header:
     - URL: '#portfolio'
       name: Portfolio
-      weight: 3
+      weight: 2
     - URL: '#about'
       name: About Me
-      weight: 2
+      weight: 3
     # - URL: '#contact'
     #   name: Contact
     #   weight: 4

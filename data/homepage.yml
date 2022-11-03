@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: "Hi, I’m Nick!"
   subtitle: "Data Scientist"
-  description: "My name is Nick Pangakis and I'm a data scientist who is currently a PhD Candidate at the University of Pennsylvania. In my research, I utilize machine learning, econometrics, and A/B testing to study the media and human behavior. This past summer, I worked as a Machine Learning Intern at DataCamp, where I used several transformer-based NLP models to build an internal linking recommendation tool. In addition to my PhD, I am also pursuing a Masters in Data Science and Statistics from the Wharton School at UPenn."
+  description: "My name is Nick Pangakis and I'm a data scientist who is currently a PhD Candidate at the University of Pennsylvania. In my research, I utilize machine learning, econometrics, and A/B testing to study the media and human behavior. This past summer, I worked as a Machine Learning Intern at DataCamp, where I used several transformer-based NLP models to build an internal linking recommendation tool. In addition to my PhD, I am also pursuing a Masters in Data Science and Statistics from The Wharton School at the University of Pennsylvania."
   image:
     x: "img/showcase/image1.jpg"
     _2x: "img/showcase/image1@2x.jpg"

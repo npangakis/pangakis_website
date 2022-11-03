@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: "Hi, I’m Nick!"
   subtitle: "Data Scientist"
-  description: "My name is Nick Pangakis and I'm a data scientist and machine learning engineer who is currently a PhD Candidate at the University of Pennsylvania. In my research, I utilize machine learning, econometrics, and A/B testing to study the media and human behavior. I am especially interested in natural language processing."
+  description: "My name is Nick Pangakis and I'm a data scientist who is currently a PhD Candidate at the University of Pennsylvania. In my research, I utilize machine learning, econometrics, and A/B testing to study the media and human behavior. This past summer, I worked as a Machine Learning Intern at DataCamp, where I used several transformer-based NLP models to build an internal linking recommendation tool. In addition to my PhD, I am also pursuing a Masters in Data Science and Statistics from the Wharton School at UPenn."
   image:
     x: "img/showcase/image1.jpg"
     _2x: "img/showcase/image1@2x.jpg"
@@ -24,6 +24,63 @@ showcase:
       
     - icon: "twitter"
       URL: "https://twitter.com/nick_pangakis?lang=en"
+      
+client_and_work:
+  title: "Data Science Portfolio"
+  enable: true
+
+  clients:
+    # - logo:
+    #     x: "img/clients/asgardia.png"
+    #     _2x: "img/clients/asgardia@2x.png"
+    #   alt: "Asgardia"
+
+  works:
+    - title: "“Classifying Local News Television Transcripts Using RoBERTa” (with Sam Wolken and Chloe Ahn)"
+      description: "We scraped a novel dataset of approximately 18,000 closed captioning transcripts from local television news programs across three cities from 2014 to 2018 and created a series of RoBERTa classifiers to identify news topics in these transcripts over time. Across the seven selected topics, the RoBERTa models achieved an average precision score of 0.85, an average recall score of 0.876, and an average F1 score of 0.859."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Explore our findings through an interactive dashboard"
+        URL: "https://njpang.shinyapps.io/roberta_shiny_app/"
+
+      image:
+        x: "/img/works/transcripts.jpg"
+        _2x: "/img/works/transcripts@2x.jpg"
+      is_even: true
+
+    - title: "“Who Donates? Using Machine Learning to Predict Federal Donation Behavior”"
+      description: "Using governmental administrative data and socio-demographic data, I show that LASSO logistic regression and random forest are very effective at predicting individual-level donation behavior. LASSO logistic regression correctly classifies 82.7% of test cases (61.9% of positive cases) and random forest correctly classifies 92.8% of test cases (99.9% of positive classes). Although both of these accuracy scores are notably higher than the 74.1 percent no-information rate, random forest proves to be the suprior model by far."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Link to Full Project"
+        URL: "https://github.com/npangakis/random_forest_donation_prediction"
+      image:
+        x: "/img/works/rf_donations.jpg"
+        _2x: "/img/works/rf_donations@2x.jpg"
+      is_even: false
+
+    - title: " “Protests Increase Donations to Federal Political Campaigns” (with Daniel Gillion) "
+      description: "Using multiple identification strategies, we show that political protests generate a significant amount of money for federal political campaigns across the United States over time. Utilizing a staggered difference-in-difference design with county, week, and year fixed-effects, we find that each additional protest causes an increase of about 97 individual donations (or roughly $18,000) to federal political campaigns in a county. Using this estimate, we determine that protests have generated over $550,000,000 in donations to federal political campaigns from 2017 to 2021."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Link to Full Project"
+        URL: "https://github.com/npangakis/protests_money"
+      image:
+        x: "/img/works/rdd.jpg"
+        _2x: "/img/works/rdd@2x.jpg"
+      is_even: true
+      
+    - title: " “Fleeing For Their Lives: Reconsidering How Americans View Immigrants’ Reasons for Migrating”"
+      description: "This project implements a series of survey experiments investigating how Americans view border crossers’ reasons for migrating and whether Americans are more supportive of migrants escaping violence or migrants escaping poverty. Contrary to prior research, my findings indicate that economic reasons for migration are only viewed less favorably by natives if the risks in the migrant’s home country are not equivalent to the risks associated with violence or persecution in the home country of origin."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Link to Full Project"
+        URL: "https://github.com/npangakis/experiment_immigration"
+      image:
+        x: "/img/works/immigration.jpg"
+        _2x: "/img/works/immigration@2x.jpg"
+      is_even: FALSE
+
 
 
 # about
@@ -83,61 +140,6 @@ education:
       degree: "Bachelor's in Political Science"
 
 # Client & Work
-client_and_work:
-  title: "Data Science Portfolio"
-  enable: true
-
-  clients:
-    # - logo:
-    #     x: "img/clients/asgardia.png"
-    #     _2x: "img/clients/asgardia@2x.png"
-    #   alt: "Asgardia"
-
-  works:
-    - title: "“Classifying Local News Television Transcripts Using RoBERTa” (with Sam Wolken and Chloe Ahn)"
-      description: "We scraped a novel dataset of approximately 18,000 closed captioning transcripts from local television news programs across three cities from 2014 to 2018 and created a series of RoBERTa classifiers to identify news topics in these transcripts over time. Across the seven selected topics, the RoBERTa models achieved an average precision score of 0.85, an average recall score of 0.876, and an average F1 score of 0.859."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Explore our findings through an interactive dashboard"
-        URL: "https://njpang.shinyapps.io/roberta_shiny_app/"
-
-      image:
-        x: "/img/works/transcripts.jpg"
-        _2x: "/img/works/transcripts@2x.jpg"
-      is_even: true
-
-    - title: "“Who Donates? Using Machine Learning to Predict Federal Donation Behavior”"
-      description: "Using governmental administrative data and socio-demographic data, I show that LASSO logistic regression and random forest are very effective at predicting individual-level donation behavior. LASSO logistic regression correctly classifies 82.7% of test cases (61.9% of positive cases) and random forest correctly classifies 92.8% of test cases (99.9% of positive classes). Although both of these accuracy scores are notably higher than the 74.1 percent no-information rate, random forest proves to be the suprior model by far."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Link to Full Project"
-        URL: "https://github.com/npangakis/random_forest_donation_prediction"
-      image:
-        x: "/img/works/rf_donations.jpg"
-        _2x: "/img/works/rf_donations@2x.jpg"
-      is_even: false
-
-    - title: " “Protests Increase Donations to Federal Political Campaigns” (with Daniel Gillion) "
-      description: "Using multiple identification strategies, we show that political protests generate a significant amount of money for federal political campaigns across the United States over time. Utilizing a staggered difference-in-difference design with county, week, and year fixed-effects, we find that each additional protest causes an increase of about 97 individual donations (or roughly $18,000) to federal political campaigns in a county. Using this estimate, we determine that protests have generated over $550,000,000 in donations to federal political campaigns from 2017 to 2021."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Link to Full Project"
-        URL: "https://github.com/npangakis/protests_money"
-      image:
-        x: "/img/works/rdd.jpg"
-        _2x: "/img/works/rdd@2x.jpg"
-      is_even: true
-      
-    - title: " “Fleeing For Their Lives: Reconsidering How Americans View Immigrants’ Reasons for Migrating”"
-      description: "This project implements a series of survey experiments investigating how Americans view border crossers’ reasons for migrating and whether Americans are more supportive of migrants escaping violence or migrants escaping poverty. Contrary to prior research, my findings indicate that economic reasons for migration are only viewed less favorably by natives if the risks in the migrant’s home country are not equivalent to the risks associated with violence or persecution in the home country of origin."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Link to Full Project"
-        URL: "https://github.com/npangakis/experiment_immigration"
-      image:
-        x: "/img/works/immigration.jpg"
-        _2x: "/img/works/immigration@2x.jpg"
-      is_even: FALSE
 
 # # testimonial
 # testimonial:

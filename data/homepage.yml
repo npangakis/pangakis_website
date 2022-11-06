@@ -4,7 +4,7 @@ showcase:
   title: "Hi, I’m Nick!"
   subtitle: "Data Scientist"
   description: "I'm a data scientist and PhD Candidate at the University of Pennsylvania. In my research, I utilize machine learning, econometrics, and A/B testing to study human behavior and the media. In addition to my PhD, I’m pursuing a Masters in Data Science and Statistics from The Wharton School."
-  description2: "I spent the summer of 2022 as a Machine Learning Intern at DataCamp, where I used transformer-based NLP models to build an internal linking recommendation tool. I now hope to continue to apply these skills and gain additional experience in a data-driven role."
+  description2: "I spent the summer of 2022 as a Machine Learning Intern at DataCamp, where I used transformer-based NLP models to build an internal linking recommendation tool. I now hope to continue to apply these skills and gain additional experience in other data-driven roles."
   image:
     x: "img/showcase/image1.jpg"
     _2x: "img/showcase/image1@2x.jpg"
